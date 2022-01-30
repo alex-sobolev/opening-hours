@@ -24,7 +24,7 @@ export interface OpeningHoursData {
   sunday: Time[];
 }
 
-export enum Api {
+export enum ApiStatus {
   Idle,
   Loading,
   Success,

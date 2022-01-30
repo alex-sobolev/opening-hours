@@ -1,7 +1,5 @@
 import { Day } from '../models';
 
-const days: Day[] = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
-
 const map = new Map<Day, Day>();
 
 map.set('monday', 'tuesday');
